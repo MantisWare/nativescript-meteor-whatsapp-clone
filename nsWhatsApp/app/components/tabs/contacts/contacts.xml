@@ -1,0 +1,5 @@
+<TabViewItem title="Contacts">
+  <TabViewItem.view>
+    <GridLayout></GridLayout>
+  </TabViewItem.view>
+</TabViewItem>

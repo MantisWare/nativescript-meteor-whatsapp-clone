@@ -1,0 +1,13 @@
+<TabViewItem title="Favorites">
+  <TabViewItem.view>
+    <GridLayout loaded="loaded">
+<ListView items="{{favorites}}">
+<ListView.itemTemplate>
+<GridLayout>
+<Label text="{{name}}"/>
+</GridLayout>
+</ListView.itemTemplate>
+</ListView>
+</GridLayout>
+  </TabViewItem.view>
+</TabViewItem>

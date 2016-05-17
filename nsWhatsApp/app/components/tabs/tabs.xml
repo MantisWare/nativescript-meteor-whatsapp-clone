@@ -1,0 +1,11 @@
+<Page id="page" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="loaded" navigatingTo="navigatingTo" xmlns:favs="components/tabs/favorites" xmlns:recent="components/tabs/recent" xmlns:contacts="components/tabs/contacts" xmlns:chats="components/tabs/chats" xmlns:settings="components/tabs/settings">
+ <TabView id="tabs" selectedIndex="{{selectedIndex}}">
+   <TabView.items>
+          <favs:favorites/>
+          <recent:recent/>
+          <contacts:contacts/>
+          <chats:chats/>
+          <settings:settings />
+   </TabView.items>
+ </TabView>
+</Page>
